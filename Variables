@@ -1,0 +1,21 @@
+public class StudentProfile{ 
+    public static void main(String[] args) { 
+        
+        // Create a student profile 
+        String name = "Emma Johnson"; 
+        int age = 15; 
+        char grade = 'A'; 
+        double gpa = 3.85; 
+        boolean hasLicense = false; 
+        byte favoriteNumber = 7; 
+        
+        // Print the profile 
+        System.out.println("=== STUDENT PROFILE ==="); 
+        System.out.println("Name: " + name); 
+        System.out.println("Age: " + age); 
+        System.out.println("Grade: " + grade); 
+        System.out.println("GPA: " + gpa); 
+        System.out.println("Has License: " + hasLicense); 
+        System.out.println("Favorite Number: " + favoriteNumber); 
+    } 
+} 
